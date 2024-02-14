@@ -270,6 +270,13 @@ namespace UUPDownload.DownloadRequest
                 filteredIds = Array.Empty<int>(),
                 excludedIds = Array.Empty<int>()
             },
+            new()
+            {
+                outputFolder = RepoLocation + @"\Acer\Spin7",
+                guid = CTAC.GenerateDeviceId("Acer", "Spin 7", "Spin SP714-61NA", "0000000000000000"),
+                filteredIds = Array.Empty<int>(),
+                excludedIds = Array.Empty<int>()
+            },
             /*new()
             {
                 outputFolder = RepoLocation + @"\Samsung\GalaxyBook2_VZW_Legacy",
